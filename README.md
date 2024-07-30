@@ -1,8 +1,8 @@
 # САЙТ
 
 ## НАПИСАН НА:
-  - 1. REACT
-    2. TAILWINDCSS
-    3. VITE
+  -  REACT
+  -  TAILWINDCSS
+  -  VITE
 ## PACKAGES:
   - 1. 
