@@ -1,5 +1,5 @@
 import React from 'react'
-import {App, Products }from './routes'
+import {App, Products, CartPage }from './routes'
 import './index.css'
 import {
   createBrowserRouter,
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: "/partners",
-    element: <App/>,
+    path: "/cart",
+    element: <CartPage/>,
     errorElement: <NotFoundPage />,
   },
   {

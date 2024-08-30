@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Cart = ({ cartItems, onRemoveFromCart, isOpen }) => {
   const itemCounts = cartItems.reduce((acc, item) => {
@@ -13,7 +14,7 @@ const Cart = ({ cartItems, onRemoveFromCart, isOpen }) => {
   });
 
   return (
-    <aside className={`fixed top-4 right-4 bg-white shadow-lg rounded-lg transition-transform transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+    <aside className={`flex top-4 right-4 bg-white shadow-lg rounded-lg transition-transform transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
       {isOpen && (
         <div className='p-4'>
           {Object.keys(itemCounts).length === 0 ? (
@@ -45,6 +46,11 @@ const Cart = ({ cartItems, onRemoveFromCart, isOpen }) => {
         <p className='text-black font-raleway'>{(Object.keys(itemCounts).length === 0 ? 'Корзина пуста, милорд' : allCount)}</p>
         </div>
       )}
+    <button 
+        className='overflow-hidden px-12 py-3 mt-5 text-lg font-semibold leading-loose text-white whitespace-nowrap bg-violet-600 rounded rotate-[2.4492937051703357e-16rad] shadow-[0px_0px_2px_rgba(109,49,237,0.12)] max-md:px-5'
+    >
+        <Link to="/cart" state={{ myProp: cartItems }}>Оформить заказ</Link>
+    </button>
     </aside>
   );
 };
