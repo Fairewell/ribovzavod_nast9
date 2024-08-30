@@ -3,12 +3,12 @@ import React from 'react';
 const CategoryHeader = ({ title, onViewMore }) => {
   return (
     <header className="flex flex-wrap gap-5 justify-between mt-16 w-full max-md:mt-10 max-md:mr-0.5 max-md:max-w-full">
-      <h2 className="text-3xl font-bold rotate-[2.4492937051703357e-16rad] text-zinc-900">
+      <h2 className="text-3xl font-raleway font-bold rotate-[2.4492937051703357e-16rad] text-zinc-900">
         {title}
       </h2>
       <button
         onClick={onViewMore}
-        className="flex overflow-hidden gap-3 px-4 py-2 my-auto text-sm font-medium leading-loose whitespace-nowrap rounded bg-black bg-opacity-0 rotate-[2.4492937051703357e-16rad] text-zinc-400 max-md:pl-5"
+        className="flex overflow-hidden gap-3 font-raleway px-4 py-2 my-auto text-sm font-medium leading-loose whitespace-nowrap rounded bg-black bg-opacity-0 rotate-[2.4492937051703357e-16rad] text-zinc-400 max-md:pl-5"
       >
         <span>Ещё</span>
         <img

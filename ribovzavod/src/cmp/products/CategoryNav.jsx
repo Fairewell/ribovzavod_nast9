@@ -6,7 +6,7 @@ const CategoryNav = ({ categories, selectedCategory, onSelectCategory }) => {
       {categories.map(category => (
         <button
           key={category.id}
-          className={`flex flex-col items-center ${selectedCategory === category.id ? 'text-zinc-900' : ''}`}
+          className={`flex flex-col items-center bg-white shadow-lg ${selectedCategory === category.id ? 'text-zinc-900 font-raleway' : ''}`}
           onClick={() => onSelectCategory(category.id)}
         >
           <img
@@ -15,7 +15,7 @@ const CategoryNav = ({ categories, selectedCategory, onSelectCategory }) => {
             alt={category.name}
             className="object-contain w-24 aspect-square"
           />
-          <div className="self-center mt-3 rotate-[2.4492937051703357e-16rad]">
+          <div className="self-center mt-3 font-raleway rotate-[2.4492937051703357e-16rad]">
             {category.name}
           </div>
         </button>

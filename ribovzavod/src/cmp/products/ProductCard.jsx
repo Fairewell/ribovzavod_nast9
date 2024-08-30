@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, onAddToCart }) => {
     return (
       <article className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
         <div className="flex overflow-hidden flex-col pb-3 mx-auto w-full bg-white rounded shadow-[0px_0px_2px_rgba(23,26,31,0.12)] max-md:mt-6">
@@ -11,10 +11,10 @@ const ProductCard = ({ product }) => {
           />
           <div className="flex gap-5 justify-between items-start mx-4 mt-4 max-md:mx-2.5">
             <div className="flex flex-col items-start font-bold">
-              <h3 className="self-stretch text-xl rotate-[2.4492937051703357e-16rad] text-zinc-900">
+              <h3 className="self-stretch font-raleway text-xl rotate-[2.4492937051703357e-16rad] text-zinc-900">
                 {product.name} {/* Изменено на product.name */}
               </h3>
-              <div className="text-base leading-loose text-right text-violet-600 rotate-[2.4492937051703357e-16rad]">
+              <div className="text-base font-raleway leading-loose text-right text-violet-600 rotate-[2.4492937051703357e-16rad]">
                 {product.price} {/* Изменено на product.price */}
               </div>
               <div className="mt-2">
@@ -25,6 +25,9 @@ const ProductCard = ({ product }) => {
                   </span>
                 ))}
               </div>
+              <button onClick={() => onAddToCart(product)} className="mt-2 bg-blue-500 text-white p-2 rounded">
+                Добавить в корзину
+              </button>
             </div>
             <div className="flex flex-col text-xs leading-loose text-zinc-400">
               <img
@@ -33,7 +36,7 @@ const ProductCard = ({ product }) => {
                 alt=""
                 className="object-contain self-end w-6 aspect-square"
               />
-              <div className="mt-10 rotate-[2.4492937051703357e-16rad] max-md:mr-1">
+              <div className="mt-10 font-raleway rotate-[2.4492937051703357e-16rad] max-md:mr-1">
                 {/* Можно добавить другие поля, если они нужны */}
                 {product.shelfLife} {/* Изменено на product.shelfLife */}
               </div>

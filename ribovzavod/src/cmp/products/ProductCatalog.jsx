@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import CategoryNav from './CategoryNav';
 import ProductGrid from './ProductGrid';
 import CategoryHeader from './CategoryHeader';
+import Cart from './Cart'; // Импортируем компонент корзины
 
 const ProductCatalog = () => {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [cartItems, setCartItems] = useState([]); // Состояние для корзины
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,9 +42,22 @@ const ProductCatalog = () => {
     fetchData();
   }, []);
 
-  // Получаем выбранную категорию
   const selectedCat = categories.find(category => category.id === selectedCategory);
   const filteredProducts = selectedCat ? selectedCat.products : [];
+
+  const handleAddToCart = (product) => {
+    const id = cartItems.length + 1; // Генерируем новый ID
+    const newProduct = { id, ...product }; // Создаем новый объект продукта с новым ID
+    console.log(newProduct);
+    setCartItems([...cartItems, newProduct]); // Добавляем новый продукт в корзину
+    console.log(cartItems);
+    
+  };
+
+  const handleRemoveFromCart = (productId) => {
+    setCartItems(cartItems.filter(item => item.id !== productId));
+  };
+
 
   return (
     <main className="p-8 flex flex-col rounded-none">
@@ -56,11 +72,21 @@ const ProductCatalog = () => {
             title={selectedCat.name}
             onViewMore={() => console.log(`View more for ${selectedCat.name}`)}
           />
-          <ProductGrid products={filteredProducts} />
+          <ProductGrid products={filteredProducts} onAddToCart={handleAddToCart} />
         </React.Fragment>
       )}
+      <div className="fixed bottom-4 right-4">
+        <Cart cartItems={cartItems} onRemoveFromCart={handleRemoveFromCart} isOpen={isOpen} />
+        <button 
+            onClick={() => setIsOpen(!isOpen)}
+            className="bg-blue-500 text-white p-4 rounded-full shadow-lg"
+        >
+            🛒
+            {cartItems.length > 0 && <span className="absolute top-0 right-0 bg-red-500 text-white rounded-full text-xs px-1">{cartItems.length}</span>}
+        </button>
+      </div>
     </main>
   );
 };
 
-export default ProductCatalog;
+export default ProductCatalog
