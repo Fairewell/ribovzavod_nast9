@@ -1,0 +1,321 @@
+{
+    "categories": [
+      {
+        "id": "1",
+        "name": "Готовая продукция",
+        "products": [
+          {
+            "name": "Балык горбуши х/к",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "750,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Балык кеты х/к кусок",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "950,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Мойва Холодного Копчения в/у, 100гр",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "60 дней",
+            "price": "120,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Набор для собак (НДС)",
+            "storageConditions": "от -4 до -8 °С",
+            "shelfLife": "60 дней",
+            "price": "42,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Набор к пиву (кубики) 50гр",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "60 дней",
+            "price": "60,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Нарезка теша (лос/рыба) 100гр",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "60 дней",
+            "price": "120,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "П/пласт горбуши х/к",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "700,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Ряпушка Холодного копчения 200гр",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "60 дней",
+            "price": "160,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Сельдь Ол. с/с В/У",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "210,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Сельдь Ол. х/к В/У",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "240,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Теша горбуши х/к в/у",
+            "storageConditions": "-4°-6°С",
+            "shelfLife": "35 дней",
+            "price": "600,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Теша КЕТЫ х/к В/У 7кг.",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "35 дней",
+            "price": "950,00 руб.",
+            "unit": "кг"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Вяленая продукция",
+        "products": [
+          {
+            "name": "Плотва вяленая (5кг)",
+            "storageConditions": "0 до -8",
+            "shelfLife": "2 месяца",
+            "price": "500,00 руб.",
+            "unit": "кг"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Копченая продукция",
+        "products": [
+          {
+            "name": "Горбуша Горячего Копчения 2кг",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "25 суток",
+            "price": "560,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Горбуша х/к ПБГ(5кг)ОПТ",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "2 месяца",
+            "price": "630,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Мойва х/к (2кг)ОПТ",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "2 месяца",
+            "price": "1 000,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Плотва х/к средн, 3 кг. ОПТ",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "60 дней",
+            "price": "235,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Сельдь ОЛ Х/К 3кг ОПТ",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "2 месяца",
+            "price": "220,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Язь пласт кр. х/к 3 кгОПТ",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "60 дней",
+            "price": "290,00 руб.",
+            "unit": "кг"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Пресервы",
+        "products": [
+          {
+            "name": "Закусочная пресервы 170гр",
+            "storageConditions": "0 до -5 С",
+            "shelfLife": "3 месяца",
+            "price": "120,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Икра сельдевая в масле 120 гр",
+            "storageConditions": "0 -5 С",
+            "shelfLife": "3 месяца",
+            "price": "67,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Кета в масле 150 гр",
+            "storageConditions": "0 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "143,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Лосось САЛАТНЫЙ пресервы",
+            "storageConditions": "0 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "143,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Морковь \"Вкусная\",140гр",
+            "storageConditions": "0 -5С",
+            "shelfLife": "3 месяца",
+            "price": "66,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Морковь острая с опятами 150 гр.",
+            "storageConditions": "0 -5С",
+            "shelfLife": "3 месяца",
+            "price": "68,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Морковь острая с шампиньонами 150 гр.",
+            "storageConditions": "0 -5С",
+            "shelfLife": "3 месяца",
+            "price": "68,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Пелядь в масле 150гр.",
+            "storageConditions": "от 0 до -8",
+            "shelfLife": "3 месяца",
+            "price": "210,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Пресервы ассорти в/м (кета/сельдь) 150 гр",
+            "storageConditions": "0 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "120,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Пресервы СЕЛЬДЬ в ассорт- те 150г",
+            "storageConditions": "от -0 до -5",
+            "shelfLife": "3 месяца",
+            "price": "100,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Пресервы Сельдь т/о ф/к в/м \"Микс\" с икрой 150гр.",
+            "storageConditions": "0-5°С",
+            "shelfLife": "1,5 месяца",
+            "price": "75,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Скумбрия в масле 150 гр",
+            "storageConditions": "0 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "100,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Столичная пресервы 170 гр",
+            "storageConditions": "0 до -5 С",
+            "shelfLife": "3 месяца",
+            "price": "120,00 руб.",
+            "unit": "шт"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Соленая продукция",
+        "products": [
+          {
+            "name": "Горбуша сол.1,7кг кусок",
+            "storageConditions": "-4 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "760,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Мойва соленая 300 гр",
+            "storageConditions": "-4 до -6 °С",
+            "shelfLife": "3 месяца",
+            "price": "140,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Пелядь с/с,5 кг",
+            "storageConditions": "от -4 до -8",
+            "shelfLife": "3 месяца",
+            "price": "460,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "СЕЛЬДЬ ОЛ с/с 5кг (+350)",
+            "storageConditions": "-4 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "950,00 руб.",
+            "unit": "ведро"
+          },
+          {
+            "name": "Сельдь Ол с/сол вес(+350)",
+            "storageConditions": "0-до - 8°С",
+            "shelfLife": "3 месяца",
+            "price": "190,00 руб.",
+            "unit": "кг"
+          },
+          {
+            "name": "Сельдь т/о пряного посола 1 кг",
+            "storageConditions": "-6 до -8 С",
+            "shelfLife": "3 месяца",
+            "price": "190,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Сельдь т/о с/с в банке 1кг",
+            "storageConditions": "-4 до -8",
+            "shelfLife": "3 месяца",
+            "price": "190,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Сельдь т/о с/с кусочки 400гр",
+            "storageConditions": "0 -4С",
+            "shelfLife": "3 месяца",
+            "price": "96,00 руб.",
+            "unit": "шт"
+          },
+          {
+            "name": "Скумбрия С/С, 3 кг",
+            "storageConditions": "-4'C-8'C",
+            "shelfLife": "3 месяца",
+            "price": "250,00 руб.",
+            "unit": "кг"
+          }
+        ]
+      }
+    ]
+  }
